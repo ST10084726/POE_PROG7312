@@ -1,0 +1,58 @@
+﻿<Window x:Class="ProgPartOne.Area"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPartOne"
+        mc:Ignorable="d"
+        Title="Area" Height="550" Width="800"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" 
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush
+                ImageSource="Images/bg9.png"
+                Stretch="Fill"
+                >
+            </ImageBrush>
+        </Grid.Background>
+        <TextBlock Margin="29,405,0,0" TextAlignment="Center" Foreground="Black" FontStyle="Italic" FontFamily="Bold" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Quiz" FontSize="16" VerticalAlignment="Top" x:Name="QuizText" MouseLeftButtonDown="QuizText_MouseLeftButtonDown" Cursor="Hand" RenderTransformOrigin="0.5,0.5" Height="22" Width="244">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <TextBlock Margin="66,448,0,0" TextAlignment="Center" Foreground="Black" FontStyle="Italic" FontFamily="Bold" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Answers" FontSize="16" VerticalAlignment="Top" x:Name="AnswerText" MouseLeftButtonDown="AnswerText_MouseLeftButtonDown" Cursor="Hand" RenderTransformOrigin="0.284,-0.171" Height="20" Width="254">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.215"/>
+                    <TranslateTransform X="1.234" Y="-2.026"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <TextBlock Margin="19,487,0,0" TextAlignment="Center" Foreground="Black"  FontStyle="Italic" FontFamily="Bold" HorizontalAlignment="Left" TextWrapping="Wrap" Text="How to Play" FontSize="16" VerticalAlignment="Top" x:Name="HowText" MouseLeftButtonDown="HowText_MouseLeftButtonDown" Cursor="Hand" RenderTransformOrigin="0.5,0.5" Height="35" Width="272">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.855"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <Label Content="Identifying Areas" HorizontalAlignment="Left" FontWeight="Bold" FontSize="30" Foreground="AntiqueWhite" VerticalAlignment="Top" Height="50" Width="354" Margin="485,65,0,0"/>
+
+        <Image Source="/Images/back.png" HorizontalAlignment="Left" Height="75" VerticalAlignment="Bottom" Width="750" x:Name="exitImg" MouseLeftButtonDown="exitImg_MouseLeftButtonDown" Cursor="Hand" Margin="0,0,0,465"/>
+
+
+    </Grid>
+</Window>

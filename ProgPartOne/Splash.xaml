@@ -1,0 +1,29 @@
+﻿<Window x:Class="ProgPartOne.Splash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPartOne"
+        mc:Ignorable="d"
+        Title="Splash" Height="550" Width="800"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" 
+        ResizeMode="NoResize"
+        ContentRendered="Window_ContentRendered">
+
+    <!-- Set the background to an Image -->
+    <Window.Background>
+        <ImageBrush ImageSource="Images/bg2.jpg"/>
+    </Window.Background>
+
+    <Grid>
+        <Image Source="Images/log.png" Stretch="Fill" HorizontalAlignment="Left"
+                       Width="550" Margin="130,85,0,80"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top"
+                    Margin="0,375,0,0">
+            <TextBlock Text="Loading..." FontSize="17" FontWeight="SemiBold"
+                       HorizontalAlignment="Left" Margin="0 30 0 15"></TextBlock>
+            <ProgressBar Name="progressBar" Value="0" Height="5" Width="295" IsIndeterminate="True"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

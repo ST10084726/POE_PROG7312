@@ -1,0 +1,81 @@
+﻿<Window x:Class="ProgPartOne.Quiz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPartOne"
+        mc:Ignorable="d"
+        Title="Quiz" Height="550" Width="800"
+        WindowStartupLocation="CenterScreen" WindowStyle="None"
+        Background="SaddleBrown"
+        ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush
+                ImageSource="Images/book.png"
+                Stretch="Fill"
+                >
+            </ImageBrush>
+        </Grid.Background>
+
+        <ListBox x:Name="BoxOne"
+            HorizontalAlignment="Left" 
+            Height="283" 
+            Margin="110,77,0,0"
+            VerticalAlignment="Top" 
+            Width="245"
+                 Background="#e3e2db">
+            <ListBoxItem>1</ListBoxItem>
+            <ListBoxItem>2</ListBoxItem>
+            <ListBoxItem>3</ListBoxItem>
+            <ListBoxItem>4</ListBoxItem>
+        </ListBox>
+
+        <ListBox x:Name="BoxTwo"
+            HorizontalAlignment="Left" 
+            Height="282" 
+            Margin="442,77,0,0"
+            VerticalAlignment="Top" 
+            Width="250"
+                Background="#e3e2db">
+            <ListBoxItem>1</ListBoxItem>
+            <ListBoxItem>2</ListBoxItem>
+            <ListBoxItem>3</ListBoxItem>
+            <ListBoxItem>4</ListBoxItem>
+            <ListBoxItem>5</ListBoxItem>
+            <ListBoxItem>6</ListBoxItem>
+            <ListBoxItem>7</ListBoxItem>
+        </ListBox>
+
+        <Image Source="/Images/restart.png" x:Name="restartImg" MouseLeftButtonDown="restartImg_MouseLeftButtonDown" HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="81" Cursor="Hand" Margin="550,370,0,0"/>
+        <Image Source="/Images/check.png" x:Name="submitImg" MouseLeftButtonDown="submitImg_MouseLeftButtonDown" Margin="462,375,0,0" HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="63" Cursor="Hand"/>
+        <Image Source="/Images/arrow.png" x:Name="downImg" MouseLeftButtonDown="downImg_MouseLeftButtonDown" Grid.Row="0" Margin="689,216,0,0" HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="69" Cursor="Hand" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="179.792"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Source="/Images/arrow.png" x:Name="upImg" MouseLeftButtonDown="upImg_MouseLeftButtonDown" Grid.Row="0" Margin="0,143,45,0" HorizontalAlignment="Right" Height="74" VerticalAlignment="Top" Width="63" Cursor="Hand"/>
+
+        <TextBlock x:Name="ScoreTb" FontSize="20" HorizontalAlignment="Left" Margin="191,399,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Image Source="/Images/back.png" x:Name="marker" Margin="21,372,712,100" MouseLeftButtonDown="Image_MouseLeftButtonDown" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.197"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+
+
+
+    </Grid>
+</Window>
