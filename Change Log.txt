@@ -1,0 +1,5 @@
+Change Log
+--------------------------
+- Enable the Identifying areas task
+- Add a dictionary to store the call numbers/decriptions
+-Created two windows for the Identifying areas
