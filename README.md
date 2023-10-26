@@ -48,7 +48,7 @@ I am continuously working to improve this project. Here are some upcoming featur
 Link: https://github.com/users/ST10084726/projects/14/views/1
 
 ## Github
-Link: https://github.com/ST10084349/OPSC7312_POE_PART_2
+Link: https://github.com/ST10084726/POE_PROG7312
 
 ## Troubleshooting:
 ### My score is not updating after I submit the quiz. What should I do?
