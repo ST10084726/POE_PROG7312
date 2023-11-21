@@ -1,0 +1,23 @@
+Change Log
+***************************************
+Part 2
+***************************************
+-- Enable the Identifying areas task
+-- Add a dictionary to store the call numbers/decriptions
+-- Created two windows for the Identifying areas
+-- Added Demo Video
+-- Updated Kanban
+-- Updated Readme
+************************************************
+Part 3
+************************************************
+-- Added a word document with multi-levels list
+-- Created a text file with data gathered from the word document
+-- Enable the Finding call numbers task
+-- Change the design of the splash screen
+-- Added a timer
+-- Made use of a tree to store data
+-- Added 3 crown badges if you finish the game in a certain amount of time
+-- Updated Demo Video
+-- Updated Kanban
+-- Updated Readme
