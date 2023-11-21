@@ -50,7 +50,7 @@ These instructions will help you get a copy of this project file and running on 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Kanban
-Link: https://github.com/users/ST10084726/projects/14/views/1
+Link: [https://github.com/users/ST10084726/projects/14/views/1](https://github.com/users/ST10084726/projects/14/views/1)
 
 ## Github
 Link: https://github.com/ST10084726/POE_PROG7312
