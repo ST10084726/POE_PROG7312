@@ -53,7 +53,7 @@ These instructions will help you get a copy of this project file and running on 
 Link: [https://github.com/users/ST10084726/projects/14/views/1](https://github.com/users/ST10084726/projects/14/views/1)
 
 ## Github
-Link: https://github.com/ST10084726/POE_PROG7312
+Link: [https://github.com/ST10084726/POE_PROG7312](https://github.com/ST10084726/POE_PROG7312/tree/Updated)
 
 ## Troubleshooting:
 ### My score is not updating after I submit the quiz. What should I do?
