@@ -5,7 +5,7 @@ This project is intended to enhance user engagement by integrating gamification 
 ```bash
 Hi there, I'm Syuren Chetty
 -- I'm currently a student - Student no. ST10084726
--- 2023 Goals: Contribute more to Open source projects
+-- 2023 Goals: Contribute more to projects
 -- Connect with me:
    Cell - 083 691 1431
    Email - syuren187@gmail.com /St10084726@vcconnect.edu.za
@@ -16,6 +16,15 @@ If you have any problems with this application, please email and I will gladly a
 1) Scoring System: Users can earn scores based on their performance.
 2) Achievements: Users can unlock achievements or badges for reaching specific milestones or completing challenges.
 3) Feedback: Users receive feedback messages based on their performance.
+
+## What's New
+- Added a word document with multi-levels list.
+- Created a text file with data gathered from the word document.
+- Enabled the Finding call numbers task.
+- Changed the design of the splash screen.
+- Added a timer.
+- Made use of a tree to store data.
+- Added 3 crown badges if you finish the game in a certain amount of time.
 
 ## Getting Started
 These instructions will help you get a copy of this project file and running on your Visual Studio for development and testing purposes.
@@ -29,10 +38,6 @@ These instructions will help you get a copy of this project file and running on 
 2. Open the project in your development environment.
 3. Customize the gamification elements, such as badges, achievements, and feedback messages, according to your requirements.
 4. Build and run the project to see the gamification features in action.
-
-## Upcoming Features
-I am continuously working to improve this project. Here are some upcoming features:
-- Enable the Finding call numbers task.
 
 ## Project Structure
 1. Images: Store images and icons used for badges or rewards.
@@ -54,6 +59,8 @@ Link: https://github.com/ST10084726/POE_PROG7312
 ### My score is not updating after I submit the quiz. What should I do?
  Verify that the quiz submission process is completed. Some quizzes may require a server-side process to calculate and update scores. 
  If the issue continues, it could be a technical problem with the quiz platform. Contact the quiz administrator or support team for help.
+### The Timer is not Displaying Correctly
+ If you're facing issues with the timer display, ensure that your system clock is accurate. The timer relies on system time, and any discrepancies can affect its performance. Additionally, check for any conflicting processes that might interfere with the timer functionality.
 
 ## FAQ
 ```bash
@@ -68,6 +75,13 @@ Link: https://github.com/ST10084726/POE_PROG7312
 <br /> A - If you experience technical issues during a quiz, immediately contact your instructor or the quiz administrator to explain the situation.
            They will provide guidance on how to proceed, which may include granting an extension or a retake opportunity, depending on the circumstances.
            It's essential to communicate the issue as soon as possible.
+
+<br /> Q - Can I pause the timer during the quiz if I need to take a break?
+<br /> A - Unfortunately, the timer runs continuously once you start the quiz and cannot be paused. It is designed to add a time constraint to the quiz, enhancing the challenge. Make sure to plan your time effectively before starting the quiz.
+
+<br /> Q - Is there a penalty for incorrect answers in the quiz?
+<br /> A - No, there is no penalty for incorrect answers. The purpose of the quiz is to assess your knowledge, and you are encouraged to attempt all questions. The timer, however, adds an element of urgency to the game, so try to answer as accurately and quickly as possible.
+
 ```
 
 
